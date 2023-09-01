@@ -26,26 +26,26 @@ const Contact = (props: Data) => {
       [evt.target.name]: value,
     });
   };
-  const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    setLoading(true);
-    axios
-      .post(`${process.env.NEXT_PUBLIC_EMAIL_API}`, {
-        formData,
-      })
-      .then(() => {
-        setFormData({
-          subject: "",
-          email: "",
-          text: "",
-        });
-        setStatus(true);
-        setLoading(false);
-      })
-      .catch((error) => {
-        setLoading(false);
-      });
-  };
+  // const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  //   e.preventDefault();
+  //   setLoading(true);
+  //   axios
+  //     .post(`${process.env.NEXT_PUBLIC_EMAIL_API}`, {
+  //       formData,
+  //     })
+  //     .then(() => {
+  //       setFormData({
+  //         subject: "",
+  //         email: "",
+  //         text: "",
+  //       });
+  //       setStatus(true);
+  //       setLoading(false);
+  //     })
+  //     .catch((error) => {
+  //       setLoading(false);
+  //     });
+  // };
 
   return (
     <Fragment>
