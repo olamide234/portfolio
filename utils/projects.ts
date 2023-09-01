@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from "uuid";
 export const projectData = [
   {
-    id: uuidv4(),
+    id: 1,
     url: "https://retailcore-mfe-root-config.dev.bepeerless.co/",
     title: "Sterling Retailcore Banking App",
     imgUrl: `${process.env.NEXT_PUBLIC_ASSETS}/v1691717080/Portfolio/Sterling_retailcore_dashboard_dcthx8.png`,
@@ -16,7 +16,7 @@ export const projectData = [
     ],
   },
   {
-    id: uuidv4(),
+    id: 2,
     url: "https://prunedge.com/",
     title: "Prunedge - Business Page",
     imgUrl: `${process.env.NEXT_PUBLIC_ASSETS}/v1691852803/Portfolio/prunedge_p5v0cx.png`,
@@ -25,7 +25,7 @@ export const projectData = [
     skills: ["HTML", "CSS", "Javascript", "React"],
   },
   {
-    id: uuidv4(),
+    id: 3,
     url: "https://booosta-dev.netlify.app/",
     title: "Boosta - Retail Management",
     imgUrl: `${process.env.NEXT_PUBLIC_ASSETS}/v1691852853/Portfolio/Boosta_snip_dvhyls.png`,
@@ -34,7 +34,7 @@ export const projectData = [
     skills: ["Material UI", "HTML", "React", "TypeScript", "React Query", "React Hook Form"],
   },
   {
-    id: uuidv4(),
+    id: 4,
     url: "https://polleasy-staging.netlify.app/",
     title: "PollEasy",
     imgUrl: `${process.env.NEXT_PUBLIC_ASSETS}/v1691852422/Portfolio/PollEasy_dashboard_kvxxhr.png`,
@@ -43,7 +43,7 @@ export const projectData = [
     skills: ["Material UI", "HTML", "Javascript", "React", "React Query", "React Hook Form"],
   },
   {
-    id: uuidv4(),
+    id: 5,
     url: "https://olamz.vercel.app",
     title: "Portfolio",
     imgUrl: `${process.env.NEXT_PUBLIC_ASSETS}/v1693530722/Portfolio/portfolio_shot_y62dy0.png`,
