@@ -7,7 +7,7 @@ import { customLoader } from "../utils/imageLoader";
 import Socials from "../utils/socials";
 import Skills from "../utils/skills";
 import { shimmer, toBase64 } from "../utils/Shimer";
-import Seo from "../components/Seo";
+import Seo from "../components/SEO";
 
 const About = () => {
   return (
