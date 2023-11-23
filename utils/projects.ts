@@ -25,16 +25,25 @@ export const projectData = [
   },
   {
     id: 3,
-    url: "https://booosta-dev.netlify.app/",
-    title: "Boosta - Retail Management",
-    imgUrl: `${process.env.NEXT_PUBLIC_ASSETS}/v1691852853/Portfolio/Boosta_snip_dvhyls.png`,
+    url: "https://booosta.com",
+    title: "Boosta - Retail Management Website",
+    imgUrl: `${process.env.NEXT_PUBLIC_ASSETS}/v1700700225/Portfolio/boosta_landing_slsbl2.png`,
     description:
       "A Retail management system that caters for Inventory management, field agents placement, Dashboard Visualization of inflow and outflow of stock",
     skills: ["Material UI", "HTML", "React", "TypeScript", "React Query", "React Hook Form"],
   },
   {
     id: 4,
-    url: "https://polleasy-staging.netlify.app/",
+    url: "https://app.booosta.com",
+    title: "Boosta - Retail Management App",
+    imgUrl: `${process.env.NEXT_PUBLIC_ASSETS}/v1691852853/Portfolio/Boosta_snip_dvhyls.png`,
+    description:
+      "A Retail management system that caters for Inventory management, field agents placement, Dashboard Visualization of inflow and outflow of stock",
+    skills: ["Material UI", "HTML", "React", "TypeScript", "React Query", "React Hook Form"],
+  },
+  {
+    id: 5,
+    url: "https://lagos.polleasy.co/",
     title: "PollEasy",
     imgUrl: `${process.env.NEXT_PUBLIC_ASSETS}/v1691852422/Portfolio/PollEasy_dashboard_kvxxhr.png`,
     description:
@@ -42,7 +51,7 @@ export const projectData = [
     skills: ["Material UI", "HTML", "Javascript", "React", "React Query", "React Hook Form"],
   },
   {
-    id: 5,
+    id: 6,
     url: "https://olamz.vercel.app",
     title: "Portfolio",
     imgUrl: `${process.env.NEXT_PUBLIC_ASSETS}/v1693530722/Portfolio/portfolio_shot_y62dy0.png`,
