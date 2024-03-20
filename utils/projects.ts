@@ -1,7 +1,7 @@
 export const projectData = [
   {
     id: 1,
-    url: "https://retailcore-mfe-root-config.dev.bepeerless.co/",
+    url: "https://seabaas.dev.bepeerless.co",
     title: "Sterling Retailcore Banking App",
     imgUrl: `${process.env.NEXT_PUBLIC_ASSETS}/v1691717080/Portfolio/Sterling_retailcore_dashboard_dcthx8.png`,
     description: "This is the official Sterling Retailcore website",
