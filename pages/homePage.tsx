@@ -20,7 +20,7 @@ const HomePage = () => {
             <span className="ml-1">I'm Olamide</span>
           </h1>
           <p className="max-w-[450px] xl:max-w-[100%] text-justify leading-loose text-sm md:text-lg font-bold my-10">
-            I'm a software engineer with 3 years of experience, I am a skilled
+            I'm a software engineer with 4 years of experience, I am a skilled
             and innovative professional dedicated to creating exceptional user
             experiences. Passionate about blending creativity with technical
             expertise, I have a deep understanding of frontend technologies and
