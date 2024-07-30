@@ -12,7 +12,7 @@ const Projects = () => {
         title="Projects"
         description={`Some of my projects`}
       />
-      <div className="projects mx-[10%] justify-center mt-20 text-center">
+      <div className="projects mx-[10%] justify-center mt-32 text-center">
         <h1 className="head-shadow mb-10 text-center">My Projects</h1>
         <div className="grid 2xl:grid-cols-4 xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-4 justify-items-center">
           {projectData &&
