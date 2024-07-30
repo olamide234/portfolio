@@ -13,11 +13,11 @@ const About = () => {
   return (
     <Fragment>
       <Seo title="About" description="About me page" />
-      <div className="mt-20 flex mx-[10%] justify-center mb-[3rem] sm:mb-[0px]">
+      <div className="mt-32 flex mx-[10%] justify-center mb-[3rem] sm:mb-[0px]">
         <div className="text-center xl:text-left max-w-[630px] xl:mr-14">
           <h1 className="head-shadow">About Me</h1>
           <p className="text-justify leading-loose text-sm md:text-lg">
-            I'm a software engineer with 3 years of experience, I am a skilled
+            I'm a software engineer with 4 years of experience, I am a skilled
             and innovative professional dedicated to creating exceptional user
             experiences. Passionate about blending creativity with technical
             expertise, I have a deep understanding of frontend technologies and
@@ -48,9 +48,6 @@ const About = () => {
             >
               <Button btnText="RESUME" />
             </a>
-          </div>
-          <div className="flex justify-center xl:justify-start">
-            <Socials />
           </div>
         </div>
         {/* <div className="rounded p-4 hidden xl:block animate-giggle">
