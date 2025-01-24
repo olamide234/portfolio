@@ -52,11 +52,11 @@ const HomePage = () => {
             height={600}
           />
           <div className="absolute left-[50%] top-[35%] xl:top-[50%] text-white">
-            <div className="text-7xl">
-              Olamide
-              <br /> Tofade
+            <div className="text-6xl leading-tight mb-4">
+              OLAMIDE
+              <br /> TOFADE
             </div>
-            <div className="text-lg">Software Engineer</div>
+            <div>SOFTWARE ENGINEER</div>
           </div>
         </div>
       </div>
