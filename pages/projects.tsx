@@ -30,8 +30,6 @@ const Projects = () => {
                   placeholder="blur"
                   blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(700, 475))}`}
                   quality={100}
-                  objectFit="cover"
-                  objectPosition="cover"
                   height={150}
                 />
                 <div className="px-6 py-2">
